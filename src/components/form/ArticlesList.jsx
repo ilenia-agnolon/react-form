@@ -6,9 +6,15 @@ function ArticlesList() {
 
   // lista titoli articoli
   return (
-    <ul>
-      <li>1</li>
-    </ul>
+    <>
+      <div>
+        <ul>
+          {titles.map((title, i) => (
+            <li key={i}>{title}</li>
+          ))}
+        </ul>
+      </div>
+    </>
   );
 }
 
