@@ -9,21 +9,21 @@ const titles = [
 
   "Le molecole che spiegano il “sapore” dell’acqua",
 
-  "Cellule senescenti: l’invecchiamento dentro di noi",
+  // "Cellule senescenti: l’invecchiamento dentro di noi",
 
-  "Com’è la vita in assenza di gravità? Esperimenti nello spazio",
+  // "Com’è la vita in assenza di gravità? Esperimenti nello spazio",
 
-  "I microrganismi che degradano la plastica: speranza per il futuro",
+  // "I microrganismi che degradano la plastica: speranza per il futuro",
 
-  "La chimica dietro il cambiamento del colore nell’autunno",
+  // "La chimica dietro il cambiamento del colore nell’autunno",
 
-  "Cosa sappiamo dell’energia oscura? Ultime scoperte",
+  // "Cosa sappiamo dell’energia oscura? Ultime scoperte",
 
-  "Il linguaggio segreto delle api: danza, suoni e feromoni",
+  // "Il linguaggio segreto delle api: danza, suoni e feromoni",
 
-  "Virus “gentili”: microrganismi che aiutano il nostro corpo",
+  // "Virus “gentili”: microrganismi che aiutano il nostro corpo",
 
-  "I fenomeni atmosferici più strani osservati da satellite",
+  // "I fenomeni atmosferici più strani osservati da satellite",
 ];
 
 export default titles;

@@ -67,6 +67,61 @@ button:focus-visible {
   }
 } */
 
-ul {
-  list-style: none;
+:root {
+  font-family: "Poppins", "Helvetica Neue", Arial, sans-serif;
+}
+
+.main-container {
+  border: 5px solid rgb(232, 232, 232);
+  width: 50%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 20px;
+}
+
+h1 {
+  border-bottom: 1px solid;
+}
+
+.input-btn-container {
+  width: 50%;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+input {
+  border: 1px solid rgb(232, 232, 232);
+  padding: 6px 14px;
+  border-radius: 50px;
+  text-align: center;
+  display: inline-block;
+}
+button {
+  border: 1px solid rgb(232, 232, 232);
+  padding: 6px 14px;
+  border-radius: 50px;
+  text-align: center;
+  display: inline-block;
+  width: 300px;
+}
+
+ol {
+  /* list-style: none; */
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+}
+
+ol li::marker {
+  color: rgb(232, 232, 232);
+  font-weight: bold;
+  font-size: 2.5rem;
+  font-family: "Poppins", "Helvetica Neue", Arial, sans-serif;
 }
