@@ -109,7 +109,12 @@ input {
   display: inline-block;
   font-family: "Poppins", "Helvetica Neue", Arial, sans-serif;
 }
-button {
+
+input:focus {
+  outline: none;
+}
+
+.btn-add {
   border: 1px solid #ea484f;
   background-color: #ea484f;
   font-family: "Poppins", "Helvetica Neue", Arial, sans-serif;
@@ -120,6 +125,24 @@ button {
   width: 300px;
   width: 100px;
   margin: 0 auto;
+}
+
+.btn-add:hover {
+  background-color: rgb(194, 194, 194);
+}
+
+.btn-delete {
+  border: 1px solid #ea484f;
+  background-color: white;
+  font-family: "Poppins", "Helvetica Neue", Arial, sans-serif;
+  padding: 4px 10px;
+  border-radius: 50px;
+  text-align: center;
+  display: inline-block;
+  margin-left: 8px;
+}
+.btn-delete:hover {
+  background-color: #ea484f;
 }
 
 ol {

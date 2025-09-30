@@ -15,6 +15,13 @@ function ArticlesList() {
     setNewarticle("");
   };
 
+  const removeArticle = (i) => {
+    const updatedArticles = articles.filter((task, index) => {
+      return index !== i;
+    });
+    setArticles(updatedArticles);
+  };
+
   return (
     <>
       <div className="main-container">
@@ -30,7 +37,10 @@ function ArticlesList() {
                 setNewarticle(e.target.value);
               }}
             />
-            <button type="submit">Aggiungi</button>
+            {/* bottone aggiungi */}
+            <button className="btn-add" type="submit">
+              Aggiungi
+            </button>
           </form>
         </div>
 
@@ -38,7 +48,13 @@ function ArticlesList() {
         <div>
           <ol>
             {articles.map((title, i) => (
-              <li key={i}>{title}</li>
+              <li key={i}>
+                {title}
+                {/* bottone elimina */}
+                <button className="btn-delete" onClick={() => removeArticle(i)}>
+                  &times;
+                </button>
+              </li>
             ))}
           </ol>
         </div>
