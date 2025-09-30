@@ -25,3 +25,5 @@ const titles = [
 
   "I fenomeni atmosferici più strani osservati da satellite",
 ];
+
+export default titles;
