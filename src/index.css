@@ -71,22 +71,27 @@ button:focus-visible {
   font-family: "Poppins", "Helvetica Neue", Arial, sans-serif;
 }
 
+body {
+  background-color: #c1d4da;
+}
+
 .main-container {
-  border: 5px solid rgb(232, 232, 232);
+  background-color: white;
   width: 50%;
   margin: 0 auto;
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
   padding: 20px;
 }
 
 h1 {
-  border-bottom: 1px solid;
-}
-
-.input-btn-container {
-  width: 50%;
+  font-size: 2rem;
+  font-family: sans-serif bold;
+  font-weight: 700;
+  border-bottom: 3px solid #ea484f;
+  padding-bottom: 0.5rem;
+  margin-bottom: 1.5rem;
+  text-align: left;
 }
 
 form {
@@ -96,19 +101,25 @@ form {
 }
 
 input {
-  border: 1px solid rgb(232, 232, 232);
+  border: 1px solid #ea484f;
+  background-color: white;
   padding: 6px 14px;
-  border-radius: 50px;
+  /* border-radius: 50px; */
   text-align: center;
   display: inline-block;
+  font-family: "Poppins", "Helvetica Neue", Arial, sans-serif;
 }
 button {
-  border: 1px solid rgb(232, 232, 232);
+  border: 1px solid #ea484f;
+  background-color: #ea484f;
+  font-family: "Poppins", "Helvetica Neue", Arial, sans-serif;
   padding: 6px 14px;
-  border-radius: 50px;
+  /* border-radius: 50px; */
   text-align: center;
   display: inline-block;
   width: 300px;
+  width: 100px;
+  margin: 0 auto;
 }
 
 ol {
@@ -120,8 +131,12 @@ ol {
 }
 
 ol li::marker {
-  color: rgb(232, 232, 232);
+  color: #ea484f;
   font-weight: bold;
   font-size: 2.5rem;
   font-family: "Poppins", "Helvetica Neue", Arial, sans-serif;
+}
+
+li {
+  border-bottom: 1px solid #e0e0e0;
 }

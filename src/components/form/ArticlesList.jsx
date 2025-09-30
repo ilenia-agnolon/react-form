@@ -19,8 +19,7 @@ function ArticlesList() {
     <>
       <div className="main-container">
         {/* titolo */}
-        <h1>Articoli popolari</h1>
-        <hr />
+        <h1>ARTICOLI POPOLARI</h1>
         <div className="input-btn-container">
           <form onSubmit={addArticle}>
             <input
