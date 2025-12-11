@@ -1,16 +1,35 @@
-# React + Vite
+<img src="./boolean-logo.png" width="20px">
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# react-form
 
-Currently, two official plugins are available:
+<img src="./react-form.png">
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🇬🇧 English Version
 
-## React Compiler
+### Overview
 
-The React Compiler is not enabled on this template. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+React exercise focused on rendering a list of blog posts and updating it through a controlled form.
 
-## Expanding the ESLint configuration
+### Assignment Summary
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+The assignment required to:
+
+- Create a page that displays a list of blog articles, initially showing only their titles.
+- Add a simple form with an input field to enter the title of a new blog article.
+- Update and re-render the list of articles when the form is submitted, including the newly added title.
+
+---
+
+## 🇮🇹 Versione Italiana
+
+### Panoramica
+
+Esercizio React dedicato alla visualizzazione di una lista di articoli di blog e al suo aggiornamento tramite un form controllato.
+
+### Riassunto della Consegna
+
+La consegna richiedeva di:
+
+- Creare una pagina che mostri una lista di articoli del blog, visualizzando inizialmente solo i titoli.
+- Aggiungere un semplice form con un campo di input per inserire il titolo di un nuovo articolo.
+- Aggiornare e ristampare la lista degli articoli al submit del form, includendo il nuovo titolo inserito.
